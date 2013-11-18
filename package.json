@@ -1,0 +1,35 @@
+{
+  "name": "dombarsify",
+  "version": "0.0.0",
+  "description": "DOMBars precompiler plugin for Browserify",
+  "main": "dombarsify.js",
+  "scripts": {
+    "test": "browserify -t ./ test/*.js | testling"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/blakeembrey/node-dombarsify.git"
+  },
+  "keywords": [
+    "dombars",
+    "template",
+    "dom",
+    "html",
+    "handlebars",
+    "mustache"
+  ],
+  "author": "Blake Embrey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blakeembrey/node-dombarsify/issues"
+  },
+  "homepage": "https://github.com/blakeembrey/node-dombarsify",
+  "dependencies": {
+    "through": "~2.3.4",
+    "dombars": "0.0.3"
+  },
+  "devDependencies": {
+    "tape": "~2.1.0",
+    "browserify": "~2.35.2"
+  }
+}
