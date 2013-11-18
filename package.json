@@ -25,8 +25,10 @@
   },
   "homepage": "https://github.com/blakeembrey/node-dombarsify",
   "dependencies": {
-    "through": "~2.3.4",
-    "dombars": "0.0.3"
+    "through": "~2.3.4"
+  },
+  "peerDependencies": {
+    "dombars": "*"
   },
   "devDependencies": {
     "tape": "~2.1.0",
