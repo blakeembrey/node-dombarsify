@@ -12,7 +12,7 @@ test('generate a template', function (t) {
   });
 
   // Require the template and append the DOM output.
-  div.appendChild(require('./browser.hbs')({ string: 'test' }));
+  div.appendChild(require('./browser.hbs')({ string: 'test' }).value);
 
   t.equal(div.innerHTML, '<p>TEST</p>\n');
 });
