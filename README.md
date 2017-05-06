@@ -1,5 +1,7 @@
 # dombarsify
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/blakeembrey/node-dombarsify.svg)](https://greenkeeper.io/)
+
 ![This plugin is deprecated](http://messages.hellobits.com/warning.svg?message=This%20plugin%20is%20deprecated!)
 
 [DOMBars](https://github.com/blakeembrey/dombars) pre-compilation plugin for [Browserify](https://github.com/substack/node-browserify). Compiles DOMBars/Handlebars templates into plain JavaScript. All compiled templates include only the DOMBars runtime and the precompiled template, so they are several factors faster and lightweight than including and parsing the original template.
